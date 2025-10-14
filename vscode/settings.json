@@ -1,0 +1,61 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "/bin/zsh",
+      "args": ["-i"]
+    }
+  },
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.automationProfile.osx": {
+    "path": "/bin/zsh",
+    "args": ["-i"]
+  },
+  "C_Cpp.enhancedColorization": "enabled",
+  "cortex-debug.liveWatchRefreshRate": 500,
+  "workbench.colorTheme": "Night Owl",
+  "editor.semanticTokenColorCustomizations": {
+    "[Night Owl]": {
+      "rules": {
+        "variable": "#ffffff"
+      }
+    }
+  },
+  "editor.minimap.enabled": false,
+  "window.confirmBeforeClose": "always",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "git.autofetch": true,
+  "tailwind-fold.autoFold": false,
+  "tailwindCSS.classFunctions": ["tw", "cn"],
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "workbench.editorAssociations": {
+    "{hexdiff}:/**/*.*": "hexEditor.hexedit",
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.svg": "default"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "terminal.integrated.scrollback": 5000,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "git-commit": false
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

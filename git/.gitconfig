@@ -1,0 +1,7 @@
+[user]
+	email = hugo.hebert00@gmail.com
+	name = Hugo Hebert
+[core]
+	editor = code -w
+[push]
+	autoSetupRemote = true
