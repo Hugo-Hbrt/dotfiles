@@ -12,6 +12,10 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+# Custom Shell commands
+export SHELL_COMMANDS="$HOME/.config/shell/commands.sh"
+source $SHELL_COMMANDS
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
